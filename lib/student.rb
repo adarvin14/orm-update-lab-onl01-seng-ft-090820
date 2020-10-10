@@ -45,7 +45,8 @@ class Student
     end
   end
   
-  def
+  def self. create(name, grade)
+    
   
   end
   
