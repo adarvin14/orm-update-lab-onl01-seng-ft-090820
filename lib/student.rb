@@ -38,5 +38,6 @@ class Student
     else
       sql = <<-SQL
         INSERT INTO students (name, grade)
+        VALUES (?, ?)
         
 end
